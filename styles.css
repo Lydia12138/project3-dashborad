@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    background-color: antiquewhite;
+    color: rgba(193, 57, 57, 0.31);
+}
+h2 {
+    float: right
+    margin: 35px;
+    margin-left: 185px;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    background-color: rgba(101, 189, 166, 0.728);
+    color: white;
+}
+
+
+h3 {
+    text-align: left;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+}
+
+#chart1 {
+  margin: 35px;
+  margin-left: 185px;
+  height: auto;
+  width: auto;
+}
+
+.side-bar {
+  float: left;
+  width: 20%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+

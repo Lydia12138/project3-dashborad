@@ -23,6 +23,17 @@ h3 {
     font-weight: normal;
 }
 
+h5 {
+    float: right
+    margin: 35px;
+    margin-left: 185px;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    background-color: rgba(101, 189, 166, 0.728);
+    color: white;
+}
+
 #chart1 {
   margin: 35px;
   margin-left: 185px;
@@ -30,21 +41,33 @@ h3 {
   width: auto;
 }
 
-.side-bar {
+#chart2 {
+  margin: 35px;
+  margin-left: 185px;
+  height: auto;
+  width: auto;
+}
+
+.side-bar-1 {
   float: left;
   width: 20%;
 }
 
 /* Clear floats after the columns */
-.row:after {
+.side-bar-1:after {
   content: "";
   display: table;
   clear: both;
 }
 
+.side-bar-2 {
+  float: left;
+  width: 20%;
+}
 
-
-
-
-
-
+/* Clear floats after the columns */
+.side-bar-2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
